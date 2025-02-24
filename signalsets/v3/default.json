@@ -567,10 +567,6 @@
   "signals": [
     {"id": "UNK_4095", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "4095"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4098"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_4098", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "4098"}
-  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4099"}, "freq": 30,
   "signals": [
     {"id": "UNK_4099", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "4099"}
@@ -5371,10 +5367,6 @@
   "signals": [
     {"id": "UNK_E83F", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "E83F"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "EFD0"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_EFD0", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "EFD0"}
-  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "EFD1"}, "freq": 30,
   "signals": [
     {"id": "UNK_EFD1", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "EFD1"}
@@ -5434,10 +5426,6 @@
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "EFDF"}, "freq": 30,
   "signals": [
     {"id": "UNK_EFDF", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "EFDF"}
-  ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "EFE1"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_EFE1", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "EFE1"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "EFE2"}, "freq": 30,
   "signals": [
