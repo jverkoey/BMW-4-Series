@@ -11,10 +11,6 @@
   "signals": [
     {"id": "UNK_D241", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D241"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "1000"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_1000", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "1000"}
-  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "1001"}, "freq": 30,
   "signals": [
     {"id": "UNK_1001", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "1001"}
@@ -26,18 +22,6 @@
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "1003"}, "freq": 30,
   "signals": [
     {"id": "UNK_1003", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "1003"}
-  ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "100A"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_100A", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "100A"}
-  ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "100E"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_100E", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "100E"}
-  ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "1600"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_1600", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "1600"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "1601"}, "freq": 30,
   "signals": [
@@ -5222,10 +5206,6 @@
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "F18C"}, "freq": 30,
   "signals": [
     {"id": "UNK_F18C", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "F18C"}
-  ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "F190"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_F190", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "F190"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "FD00"}, "freq": 30,
   "signals": [
