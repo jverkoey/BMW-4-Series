@@ -3,77 +3,13 @@
   "signals": [
     {"id": "UNK_4200", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "4200"}
   ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D223"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D223", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D223"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D23B"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D23B", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D23B"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D240"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D240", "path": "aTest", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "D240 speed-related?", "description": "Some kind of counter that goes up and down over time"}
-  ]},
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25,
+"signals": [
+  {"id": "4SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed (instrument cluster)", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
+]},
 { "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D241"}, "freq": 30,
   "signals": [
     {"id": "UNK_D241", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D241"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D242"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D242", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D242"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D243"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D243", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D243"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D244"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D244", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D244"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D245"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D245", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D245"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D246"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D246", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D246"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D24C"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D24C", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D24C"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D300"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D300", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D300"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D303"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D303", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D303"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D31C"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D31C", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D31C"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D377"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D377", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D377"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "D84A"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_D84A", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "D84A"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "F100"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_F100", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "F100"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "F101"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_F101", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "F101"}
-  ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "dbg": true, "cmd": {"22": "F102"}, "freq": 30,
-  "signals": [
-    {"id": "UNK_F102", "path": "aTest", "fmt": { "len": 8, "max": 255, "unit": "hex" }, "name": "F102"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB1"}, "freq": 0.25,
   "signals": [
